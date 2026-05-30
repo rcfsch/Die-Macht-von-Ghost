@@ -1,0 +1,11 @@
+{
+  "storage": {
+    "active": "s3",
+    "s3": {
+      "accessKeyId": "DEIN_KEY",
+      "secretAccessKey": "DEIN_SECRET",
+      "region": "eu-central-1",
+      "bucket": "mein-ghost-bucket"
+    }
+  }
+}
