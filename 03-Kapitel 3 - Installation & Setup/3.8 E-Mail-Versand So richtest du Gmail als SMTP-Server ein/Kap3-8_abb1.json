@@ -1,0 +1,12 @@
+v{
+"url":"https://deinblog.de",
+"database":{...}
+"mail":{
+"transport":"SMTP"
+"options":{
+"host": "smtp.gmail.com"
+"port":587,
+"secure":false,
+"auth":{
+"user":"deine-email@gmail.com",
+"pass": "dein-16-stelliges-app-passwort"
