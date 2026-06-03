@@ -1,0 +1,7 @@
+http
+POST
+/ghost/api/admin/themes/upload/
+Authorization:Bearer
+<access
+token>
+Content-Type:multipart/form-data
