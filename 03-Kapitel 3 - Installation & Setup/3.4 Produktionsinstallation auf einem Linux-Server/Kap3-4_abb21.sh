@@ -1,0 +1,2 @@
+# Ghost-Installation
+ghost install

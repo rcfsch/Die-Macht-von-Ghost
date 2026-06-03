@@ -1,0 +1,2 @@
+# Fuhrt das Sicherheits-Setup fur MySQL durch
+Sudomysql_secure_installation
