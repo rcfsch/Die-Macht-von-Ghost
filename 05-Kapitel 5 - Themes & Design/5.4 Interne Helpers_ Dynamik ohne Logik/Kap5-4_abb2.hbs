@@ -1,0 +1,7 @@
+handlebars
+{{#get
+t"posts"limit="3"include="tags,authors"}}
+{{#foreachposts}}
+<li><ahref="{{url}}">{{title}}</a></li>
+{{/foreach}}
+{{/get}}
