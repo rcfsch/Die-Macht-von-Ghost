@@ -1,0 +1,11 @@
+handlebars
+{{#foreachposts}}
+２３4５6７８
+<article>
+<h2><ahref="{{url}}">{{title}}</a></h2>
+<time datetime="{{date format="yYYY-MM-DD"}}">
+{{date format="D.MMMM YYYY"}}
+</time>
+<p>{{excerpt words="26"}}</p>
+</article>
+{{/foreach}}
