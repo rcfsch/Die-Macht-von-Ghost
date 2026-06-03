@@ -1,0 +1,17 @@
+Beispiel:
+yaml
+routes:
+v
+/newsletter/:
+template: newsletter
+/archiv/:
+controller:channel
+filter:tag:archiv
+collections:
+/:
+permalink:/{slug}/
+template:index
+13、
+taxonomies:
+tag:/tag/{slug}/
+author:/author/{slug}/
