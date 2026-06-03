@@ -1,0 +1,17 @@
+graphql
+{
+posts(limit: 3){
+E
+title
+slug
+published_at
+primary_tag {
+name
+{
+authors{
+name
+profile_image
+{
+feature_image
+}
+}
