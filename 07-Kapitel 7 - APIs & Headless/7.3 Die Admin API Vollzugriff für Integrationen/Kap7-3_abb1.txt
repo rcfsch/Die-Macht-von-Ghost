@@ -1,0 +1,9 @@
+http
+PoSThttps://deinblog.de/ghost/api/admin/session/
+Content-Type:application/json
+{
+grant_type":"password"
+"username":"your@email.com"
+"password":"your-admin-password"
+"client_id":"ghost-admin"
+"client_secret":"your-admin-api-key"
