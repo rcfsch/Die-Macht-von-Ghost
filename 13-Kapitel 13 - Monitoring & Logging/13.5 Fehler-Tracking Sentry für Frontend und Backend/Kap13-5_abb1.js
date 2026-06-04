@@ -1,0 +1,3 @@
+npm
+install
+@sentry/node

@@ -1,0 +1,9 @@
+import
+as
+Sentry
+from
+@sentry/browser
+Sentry.init({
+dsn:
+https://...@sentry.io/...
+});
