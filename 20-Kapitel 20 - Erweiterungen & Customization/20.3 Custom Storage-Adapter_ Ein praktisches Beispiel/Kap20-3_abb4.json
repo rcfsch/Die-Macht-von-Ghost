@@ -1,0 +1,10 @@
+y
+storage":{
+"active":"ghost-storage-backblaze"
+ghost-storage-backblaze":{
+applicationKeyId":"DEIN_BACKBLAZE_APPLICATION_KEY_ID"
+L
+'applicationKey":"DEIN_BACKBLAZE_APPLICATION_KEY"
+"bucketId":"DEIN_BUCKET_ID"
+h
+"bucketName":"dein-bucket-name
