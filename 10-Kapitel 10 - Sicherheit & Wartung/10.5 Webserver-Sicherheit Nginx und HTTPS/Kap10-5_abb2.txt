@@ -1,0 +1,12 @@
+nginx
+addheaderX-Content-Type-Options
+always;
+nosniff"
+addheaderX-Frame-Options
+"DENY"
+always;
+add headerX-xSS-Protection
+"1;mode=block"always;
+addheaderStrict-Transport-Security
+max-age=31536000;includeSubDomains
+always;

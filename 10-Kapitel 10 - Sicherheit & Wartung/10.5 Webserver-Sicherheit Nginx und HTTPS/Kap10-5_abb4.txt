@@ -1,0 +1,7 @@
+nginx
+limit_req_zone
+$binary_remote_addr zone=ghost:10m rate=10r/s;
+location/ghost/api/{
+limit_req
+zone=ghost burst=20 nodelay;
+proxy_pass http://127.0.0.1:2368;

@@ -1,0 +1,7 @@
+nginx
+server
+2345
+listen 80;
+meinblog.de;
+servername
+return 3e1 https://$server_name$request_uri;
