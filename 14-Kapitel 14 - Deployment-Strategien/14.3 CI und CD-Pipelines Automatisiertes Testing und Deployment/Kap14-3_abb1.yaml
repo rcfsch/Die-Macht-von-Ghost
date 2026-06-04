@@ -1,0 +1,16 @@
+name: Deploy Ghost Theme
+on:
+push:
+branches: [main]
+jobs:
+deploy:
+runs-on:ubuntu-latest
+steps:
+uses:actions/checkout@v4
+name:Install Ghost CLI
+run:npm install -g ghost-cli
+name:Deploy to Production
+run:
+ghost install --url https://meinblog.de --db mysql --no-prompt
+env:
+GHOST_ADMIN_API_KEY: ${{ secrets.GHOST_ADMIN_API_KEY }}
