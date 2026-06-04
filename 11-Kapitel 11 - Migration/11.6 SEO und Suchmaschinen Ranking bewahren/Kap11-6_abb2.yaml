@@ -1,0 +1,5 @@
+User-agent:*
+Allow:/
+Disallow:/ghost/
+Disallow:/rss/
+Sitemap: https://deinblog.de/sitemap.xml

@@ -1,0 +1,7 @@
+"from":"~/blog/(.*）$"
+"to":"/$1"，
+'permanent":true
+"from":"/alters-artikel/"
+"to":"/neuer-beitrag/"
+'permanent":true
+}
