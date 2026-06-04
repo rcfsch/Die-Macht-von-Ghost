@@ -1,0 +1,6 @@
+v
+"database":{
+v
+connection":{
+paSSWord":"${DB_PASSWORD}
+5}
