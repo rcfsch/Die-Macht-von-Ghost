@@ -1,0 +1,6 @@
+storage":{
+active":"s3"
+"s3":{
+"secretAccessKey":"DEIN_SECRET"
+"region":"eu-central-1",
+"bucket":"ghost-kunde1-images
