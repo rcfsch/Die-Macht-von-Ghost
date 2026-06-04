@@ -1,0 +1,5 @@
+v{
+name":"mein-theme
+version":"1.0.0"
+engines":
+ghost":">=5.0.0"

@@ -1,0 +1,10 @@
+handlebars
+{{#get "posts"filter="tag:newsletter AND status:published" limit="5" include="tags,authors"}}
+{{#foreachposts}}
+<article>
+<h2><ahref="{{url}}">{{title}}</a></h2>
+<p>{{excerptwords="2o"}}</p>
+<span>Tags:{{tags separator=","}}</span>
+</article>
+{{/foreach}}
+{{/get}}

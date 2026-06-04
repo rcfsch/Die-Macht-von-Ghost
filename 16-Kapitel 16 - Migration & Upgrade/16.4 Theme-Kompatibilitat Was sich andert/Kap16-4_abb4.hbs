@@ -1,0 +1,9 @@
+handlebars
+{{#get "posts" filter="tag:newsletter AND status:published" limit="5"}}
+{{#foreach posts}}
+<article>
+<h2><ahref="{{url}}">{{title}}</a></h2>
+<>=spomdx<d>
+</article>
+{{/foreach}}
+{{/get}}
