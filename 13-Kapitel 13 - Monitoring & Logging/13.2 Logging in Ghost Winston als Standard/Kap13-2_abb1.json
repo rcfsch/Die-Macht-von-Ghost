@@ -1,0 +1,8 @@
+v{
+"logging":{
+"transports":["file"，"stdout"]
+"level":"info"
+"rotation":{
+"enabled":true,
+"count":10,
+"period":"1d"
