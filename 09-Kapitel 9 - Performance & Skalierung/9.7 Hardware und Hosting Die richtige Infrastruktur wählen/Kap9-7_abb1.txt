@@ -1,0 +1,1 @@
+[Ghost-Instanz]→[Managed MySQL]→[Object Storage]→[Cloudflare （CDN + Firewall)]
